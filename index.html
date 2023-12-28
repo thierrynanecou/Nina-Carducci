@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -46,14 +47,14 @@
       property="og:image:alt"
       content="Texte alternatif pour l'image Facebook"
     />
-
     <script type="application/ld+json">
       {
         "@context": "http://schema.org",
-        "@type": "Person",
-        "name": "Nina Carducci",
-        "url": "http://127.0.0.1:5500/index.html",
-        "telephone": "05 56 67 78 89",
+        "@type": "LocalBusiness",
+        "image": [
+        "https://thierrynanecou.github.io-master/assets/images/nina.webp"
+        ],
+        "name": "Nina Carducci Photographe",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
@@ -61,7 +62,15 @@
           "postalCode": "33200",
           "addressCountry": "FR"
         },
-        "openingHoursSpecification": {
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 44.84666,
+          "longitude": -0.60652
+        },
+        "url" :"https://thierrynanecou.github.io/nina-carducci.github.io-master/",
+        "telephone": "05 56 67 78 89",
+        "openingHoursSpecification": [ 
+        {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": [
             "Monday",
@@ -72,10 +81,15 @@
           ],
           "opens": "10:00",
           "closes": "19:00"
-        },
-        "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+        }
+       ] 
       }
     </script>
+        
+        
+        
+     
+    
     
   </head>
   <body>
@@ -379,6 +393,7 @@
           />
         </div>
       </div>
+      
     </footer>
 
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
@@ -388,6 +403,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/maugallery.js"></script>
+    <script src="./assets/maugallery.min.js"></script>
     <script src="./assets/scripts.js"></script>
+    <script src="./assets/scripts.min.js"></script>
   </body>
 </html>
