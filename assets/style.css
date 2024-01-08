@@ -100,11 +100,11 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A (190,180,90,1);
+	background-color: black;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000 
 }
 .item-column {
 	position: relative;
